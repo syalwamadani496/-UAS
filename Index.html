@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>www</title>
+  <title>orang</title>
   
   <link href="css/bootstrap.css" rel="stylesheet">
   
@@ -28,10 +28,10 @@
        <img id="objek" src="gambar/kanan1.png" style="width: 200px;">
      </div>
    </div>
-   
+   <h1>nama  : syalwa madani</h1>
+ <h1>kelas : xi rpl</h1>
  <div class="d-flex justify-content-center">
-   <div class="panah btn btn-outline-primary" id="panah-kiri">&lArr;</div>
-   <div class="panah btn btn-outline-primary" id="panah-kanan">&rArr;</div>
+   <div class="panah btn btn-outline-primary" id="panah-kiri"> read more</div>
  </div>
  
  <script>
@@ -52,7 +52,7 @@
         }
         $("#objek").attr("src", "gambar/kanan" + langkahkanan + ".png");
         $("#stage").css("background-position-x", posisibackground);
-      }, 50 )
+      }, 100 )
      })
      
     $("#panah-kanan").on("touchend", function () {
@@ -68,7 +68,7 @@
        }
        $("#objek").attr("src", "gambar/kiri" + langkahkiri + ".png");
        $("#stage").css("background-position-x", posisibackground);
-      }, 50 )
+      }, 100 )
     })
   
     $("#panah-kiri").on("touchend", function () {
@@ -96,5 +96,6 @@
      })
    })
  </script>
+ 
 </body>
 </html>
